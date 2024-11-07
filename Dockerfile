@@ -11,4 +11,4 @@ COPY . /app
 RUN javac Main.java
 
 # Define the command to run your application (update class name as needed)
-CMD ["java", "Cipher"]
+CMD ["java", "Main"]
